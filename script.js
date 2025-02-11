@@ -33,7 +33,7 @@ BCNM1: [
 ],
 BLCA: [{ emptySpeed: '75 kmph', loadedSpeed: '75 kmph', axleLoad: '20.32t' }],
 BLCB: [{ emptySpeed: '75 kmph', loadedSpeed: '75 kmph', axleLoad: '20.32t' }],
-BLCS: [{ emptySpeed: '65 kmph', loadedSpeed: '65 kmph', axleLoad: '25t' }],
+BLCS: [{ emptySpeed: '65 kmph', loadedSpeed: '65 kmph', axleLoad: '22.32t(designated 25t)' }],
 BLLA: [{ emptySpeed: '100 kmph', loadedSpeed: '100 kmph', axleLoad: '18.8t' }],
 BLLB: [{ emptySpeed: '100 kmph', loadedSpeed: '100 kmph', axleLoad: '18.8t' }],
 BOBR: [{ emptySpeed: "75 kmph", loadedSpeed: "70 kmph", axleLoad: "22.32t" }],
@@ -44,14 +44,18 @@ BOBRN: [
 BOBRNM1: [{ emptySpeed: "80 kmph", loadedSpeed: "70 kmph", axleLoad: "22.32t" }],
 BOBRM1: [{ emptySpeed: "75 kmph", loadedSpeed: "70 kmph", axleLoad: "22.32t" }],
 BOBSNM1: [{ emptySpeed: '55 kmph', loadedSpeed: '45 kmph', axleLoad: '25t' }],
-BOBYN: [{ emptySpeed: "75 kmph", loadedSpeed: "75 kmph", axleLoad: "20.32t" }],
+BOBYN: [{ emptySpeed: "75 kmph", loadedSpeed: "75 kmph", axleLoad: "20.32t" },
+    { emptySpeed: "75 kmph", loadedSpeed: "60 kmph", axleLoad: "22.32t" }
+],
 BOMN: [{ emptySpeed: '70 kmph', loadedSpeed: '70 kmph', axleLoad: '16.40t' }],
 BOST: [
     { emptySpeed: '80 kmph', loadedSpeed: '50 kmph', axleLoad: '22.32t' },
     { emptySpeed: '80 kmph', loadedSpeed: '75 kmph', axleLoad: '20.32t' }
 ],
 BOSTHS: [{ emptySpeed: '100 kmph', loadedSpeed: '100 kmph', axleLoad: '20.32t' }],
-BOSTHSM1: [{ emptySpeed: '80 kmph', loadedSpeed: '60 kmph', axleLoad: '22.32t' }],
+BOSTHSM1: [{ emptySpeed: '80 kmph', loadedSpeed: '60 kmph', axleLoad: '22.32t' },
+    { emptySpeed: '80 kmph', loadedSpeed: '60 kmph', axleLoad: '22.9t' }
+],
 BOSTHSM2: [{ emptySpeed: '100 kmph', loadedSpeed: '75 kmph', axleLoad: '22.32t' }],
 BOSTHSM3: [{ emptySpeed: '100 kmph', loadedSpeed: '75 kmph', axleLoad: '22.32t' }],
 BOYEL: [{ emptySpeed: '85 kmph', loadedSpeed: '45 kmph', axleLoad: '25t' }],
@@ -60,7 +64,9 @@ BOXN: [
   { emptySpeed: "80 kmph", loadedSpeed: "75 kmph", axleLoad: "20.32t" },
   { emptySpeed: "80 kmph", loadedSpeed: "60 kmph", axleLoad: "22.32t" }
 ],
-BOXNHA: [{ emptySpeed: '100 kmph', loadedSpeed: '75 kmph', axleLoad: '22.82t' }],
+BOXNHA: [{ emptySpeed: '100 kmph', loadedSpeed: '75 kmph', axleLoad: '22.82t' },
+    { emptySpeed: '100 kmph', loadedSpeed: '90 kmph', axleLoad: '20.32t' }
+],
 BOXNHAM: [{ emptySpeed: '100 kmph', loadedSpeed: '75 kmph', axleLoad: '22.82t' }],
 BOXNHL: [
     { emptySpeed: '100 kmph', loadedSpeed: '45 kmph', axleLoad: '25t' },
@@ -77,6 +83,7 @@ BOXNM1: [
 ],
 BOXNM2: [{ emptySpeed: '100 kmph', loadedSpeed: '75 kmph', axleLoad: '22.82t' }],
 BOXNR: [{ emptySpeed: '100 kmph', loadedSpeed: '75 kmph', axleLoad: '22.9t' }],
+BOXNRM2: [{ emptySpeed: '100 kmph', loadedSpeed: '75 kmph', axleLoad: '22.9t' }],
 BOXNRHS: [{ emptySpeed: '100 kmph', loadedSpeed: '75 kmph', axleLoad: '22.9t' }],
 BOXNLWM2: [{ emptySpeed: '100 kmph', loadedSpeed: '75 kmph', axleLoad: '22.82t' }],
 BRHNEHS: [{ emptySpeed: '65 kmph', loadedSpeed: '65 kmph', axleLoad: '20.32t' }],
@@ -100,7 +107,11 @@ BFNS: [
     { emptySpeed: "65 kmph", loadedSpeed: "65 kmph", axleLoad: "22.9t" }
 ],
 BFNSM: [{ emptySpeed: "95 kmph", loadedSpeed: "60 kmph", axleLoad: "22.9t" }],
-BFNV: [{ emptySpeed: "100 kmph", loadedSpeed: "60 kmph", axleLoad: "22.9t" }]
+BFNV: [{ emptySpeed: "100 kmph", loadedSpeed: "60 kmph", axleLoad: "22.9t" }],
+BRSTN: [{ emptySpeed: "80 kmph", loadedSpeed: "70 kmph", axleLoad: "20.32t" }],
+BLSSA: [{ emptySpeed: "65 kmph", loadedSpeed: "65 kmph", axleLoad: "22.9t" }],
+BLSSB: [{ emptySpeed: "65 kmph", loadedSpeed: "65 kmph", axleLoad: "22.9t" }],
+BCCNR: [{ emptySpeed: "100 kmph", loadedSpeed: "100 kmph", axleLoad: "10.5t" }],
 };
 
 const inputField = document.getElementById('loadInput');
